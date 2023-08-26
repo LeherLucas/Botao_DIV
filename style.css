@@ -1,0 +1,29 @@
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+#cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  border-radius: 12px;
+  margin: 30px;
+  padding: 20px;
+  border-top: 10px solid #5F1FE5;
+  background-color: rgba(48,37,37,6%);
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-right:1px solid #FFFFFF ;
+  width: 250px;
+}
+
+h5,a{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+
